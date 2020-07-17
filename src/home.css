@@ -1,0 +1,40 @@
+body{
+    background : radial-gradient(#e5e5e5, #ffffff, #e5e5e5);
+}
+
+.heading{
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    position: relative;
+    left: 40%;
+}
+.logout-btn {
+    color: rgb(255, 255, 255);
+    float: right;
+    padding: 0.5rem 0.7rem;
+    height: 3rem;
+    /* background-color: #417cef; */
+    border: 0;
+    font-size: 18px;
+    border-radius: 3px;
+    font-family: Oxygen, sans-serif;
+    background-color: rgba(15, 15, 15, 0.03);
+    margin-left: 70rem;
+    margin-top: 1rem;
+    border: 2px solid white;
+    transition: background-color 0.3s ease-out;
+    cursor: pointer;
+}
+
+.logout-btn:hover,
+.logout-btn:focus {
+    background-color: #417cef;
+    color: white;
+    border: #417cef;
+}
+
+.card-container{
+    size: 20rem;
+}
+
